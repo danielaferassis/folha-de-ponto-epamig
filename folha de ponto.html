@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Ponto</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        /* Aplica espaçamento de linha apenas à coluna desejada */
+        .aumentar-espacamento {
+            line-height: 2;
+        }
+        /* Define o tamanho da letra para as células específicas ou para toda a coluna */
+        .diminuir-letra {
+            font-size: 5px; /* Ajuste o valor conforme necessário */
+        }
+        /* Define alinhamento da letra para as células específicas ou para toda a coluna */
+        .alinhar-letra {
+            text-align: left; /* Ajuste o valor conforme necessário */
+        }
+    </style>
+</head>
+<body>
+
+    <table border="1">
+        <tr>
+            <th class="aumentar-espacamento" colspan="8">FOLHA INDIVIDUAL DE FREQUÊNCIA</th>
+            <td class="diminuir-letra aumentar-espacamento" colspan="1">SIGLA DA UNIDADE </td>
+            <td class="diminuir-letra aumentar-espacamento" colspan="1">MÊS/ANO </td>
+        </tr>
+        <tr>
+            <th class="alinhar-letra aumentar-espacamento" colspan="8">Nome:</th>
+            <td class="diminuir-letra aumentar-espacamento" colspan="1">CARGO FUNÇÃO: </td>
+            <td class="diminuir-letra aumentar-espacamento" colspan="1">REGISTRO N°</td>
+        </tr>
+        <tr>
+            <th class="diminuir-letra" rowspan="2">DIA</th>
+            <th class="diminuir-letra" colspan="4">1° EXPEDIENTE</th>
+            <th class="diminuir-letra" colspan="4">2° EXPEDIENTE</th>
+            <td class="diminuir-letra" rowspan="2" colspan="1">OBSERVAÇÕES</td>
+        </tr>
+        <tr>
+            <th class="diminuir-letra" colspan="1">HORÁRIO DE ENTRADA</th>
+            <th class="diminuir-letra" colspan="1">RUBRICA DO EMPREGADO</th>
+            <th class="diminuir-letra" colspan="1">HORÁRIO DE SAÍDA</th>
+            <th class="diminuir-letra" colspan="1">RUBRICA DO EMPREGADO</th>
+            <th class="diminuir-letra" colspan="1">HORÁRIO DE ENTRADA</th>
+            <th class="diminuir-letra" colspan="1">RUBRICA DO EMPREGADO</th>
+            <th class="diminuir-letra" colspan="1">HORÁRIO DE SAÍDA</th>
+            <th class="diminuir-letra" colspan="1">RUBRICA DO EMPREGADO</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <th class="diminuir-letra">DOMINGO</th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <th class="diminuir-letra"> SÁBADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>08</td>
+            <th class="diminuir-letra"> DOMINGO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>09</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <th class="diminuir-letra"> FERIADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <th class="diminuir-letra"> FERIADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <th class="diminuir-letra"> RECESSO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <th class="diminuir-letra"> SÁBADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <th class="diminuir-letra"> DOMINGO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <th class="diminuir-letra"> SÁBADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <th class="diminuir-letra"> DOMINGO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <th class="diminuir-letra"> SÁBADO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <th class="diminuir-letra"> DOMINGO </th>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td class="aumentar-espacamento" colspan="10"> TITULAR DA UNIDADE (data, carimbo, assinatura) </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
